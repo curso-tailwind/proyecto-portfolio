@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="text-indigo-50">
+  <body class="text-indigo-50 bg-stone-950">
     <header id="header" class="bg-indigo-950">
-      <nav class="h-16 flex justify-between items-center shadow-sm sticky top-0 sm:px-24">
+      <nav
+        class="h-16 flex justify-between items-center shadow-sm sticky top-0 sm:px-0 max-w-screen-lg mx-auto"
+      >
         <button id="menu-button" class="absolute left-2 sm:hidden">
           <svg
             width="40px"
@@ -43,8 +45,8 @@
           <li>
             <a href="#reviews">Reseñas</a>
           </li>
-          <li>
-            <button class="sm:hidden">
+          <li class="sm:hidden">
+            <button >
               <svg
                 width="50px"
                 height="50px"
@@ -68,6 +70,34 @@
         </ul>
       </nav>
     </header>
+    <section>
+      <article class="max-w-72 mx-auto flex flex-wrap items-center py-16 justify-between sm:max-w-screen-lg">
+        <img
+          class="max-w-72 mx-auto rounded-full"
+          src="https://media.licdn.com/dms/image/v2/D4E03AQFYmEb2jiDvxA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728552961187?e=1740009600&v=beta&t=pZ-Wa48Unn1VP963ZGhPIV9LB23gYkA22NkXBzostlo"
+          alt="imagen de perfil de Marcel"
+        />
+        <div class="mx-auto my-4 flex flex-col gap-10">
+          <h2 class="bg-gradient-to-r from-[#ff5d50] to-[#d31166] bg-clip-text text-transparent text-6xl font-black text-center sm:text-left">¡Hola!</h2>
+          <p>Soy Marcel, desarrollador y profesor de programación.</p>
+          <ul class="flex gap-10">
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/marcel-bosch-developer/"
+              >
+                <img src="./assets/linkedIn-logo.svg" alt="logo de linkedin" />
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/Marshall-Bits">
+                <img src="./assets/github-logo.svg" alt="logo de github" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
     <script src="./scripts/navigation.js"></script>
   </body>
 </html>
