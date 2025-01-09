@@ -697,11 +697,6 @@ video {
           background-clip: text;
 }
 
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -714,11 +709,6 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
 }
 
 .text-6xl {
@@ -741,11 +731,6 @@ video {
 
 .text-transparent {
   color: transparent;
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .shadow-sm {
@@ -794,11 +779,6 @@ video {
 
   .sm\:bg-transparent {
     background-color: transparent;
-  }
-
-  .sm\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
   }
 
   .sm\:px-0 {
