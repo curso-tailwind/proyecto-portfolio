@@ -588,10 +588,6 @@ video {
   margin-top: 2.5rem;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
@@ -671,6 +667,10 @@ video {
 
 .animate-slide-out {
   animation: slide-out 0.5s ease-in-out;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .resize {
@@ -911,6 +911,10 @@ video {
     justify-content: space-between;
   }
 
+  .sm\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .sm\:bg-transparent {
     background-color: transparent;
   }
@@ -933,5 +937,9 @@ video {
 @media (min-width: 1024px) {
   .lg\:max-w-screen-lg {
     max-width: 1024px;
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
   }
 }
