@@ -11,12 +11,13 @@
    - Reviews
 3. [Ordenar clases automáticamente](#3-ordenar-clases-automáticamente)
    - [Cómo instalar el plugin](#cómo-instalar-el-plugin)
+4. [Branches del repositorio](#4-branches-del-repositorio)
 
 ## 1. Descripción
 
 En este proyecto tenemos un portfolio personal que contendrá información sobre ti, tus habilidades, proyectos y datos de contacto.
 Este proyecto será la carta de presentación para futuros empleadores o clientes.
-Puedes visitar la versión de ejemplo [aquí]().
+Puedes visitar la versión de ejemplo [aquí](https://curso-tailwind.github.io/proyecto-portfolio/).
 
 ## 2. Estructura
 
@@ -86,3 +87,17 @@ Ahora crea un archivo en la raíz de tu proyecto llamado `.prettierrc` y añade 
 ```
 
 A partir de ahora, cuando quieras que tus clases se ordenen, solo tienes que formatear el archivo. Botón derecho en el archivo > Format Document (o el comando que te sugiera tu sistema).
+
+## 4. Branches del repositorio
+
+El repositorio contiene varias branches. Cada una de ellas corresponde a una lección del curso:
+
+1. [main](https://github.com/curso-tailwind/proyecto-portfolio/tree/main): Contiene el proyecto finalizado.
+2. [navbar](https://github.com/curso-tailwind/proyecto-portfolio/tree/navbar): Añade la barra de navegación.
+3. [navbar-js](https://github.com/curso-tailwind/proyecto-portfolio/tree/navbar-js): Añade interactividad a la barra de navegación.
+4. [hero](https://github.com/curso-tailwind/proyecto-portfolio/tree/hero): Añade la sección de hero.
+5. [about-me](https://github.com/curso-tailwind/proyecto-portfolio/tree/about-me): Añade la sección de "Sobre mí".
+6. [projects](https://github.com/curso-tailwind/proyecto-portfolio/tree/projects): Añade la sección de proyectos.
+7. [projects-js](https://github.com/curso-tailwind/proyecto-portfolio/tree/projects-js): Los proyectos se cargan dinámicamente con JavaScript.
+8. [reviews](https://github.com/curso-tailwind/proyecto-portfolio/tree/reviews): Añade la sección de reviews.
+9. [reviews-js](https://github.com/curso-tailwind/proyecto-portfolio/tree/reviews-js): Las reseñas se cargan dinámicamente con JavaScript.
