@@ -17,7 +17,7 @@
 
 En este proyecto tenemos un portfolio personal que contendrá información sobre ti, tus habilidades, proyectos y datos de contacto.
 Este proyecto será la carta de presentación para futuros empleadores o clientes.
-Puedes visitar la versión de ejemplo [aquí](https://curso-tailwind.github.io/proyecto-portfolio/).
+Puedes visitar la versión de ejemplo <a href="https://curso-tailwind.github.io/proyecto-portfolio/" target="_blank">aquí</a>.
 
 ## 2. Estructura
 
