@@ -1,4 +1,4 @@
-# Proyecto 1: Portfolio personal
+# Proyecto: Portfolio personal
 
 ## Índice de Contenidos
 
